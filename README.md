@@ -1,7 +1,7 @@
 Ember Data Adapter for ASP.NET MVC
 ==================================
 
-This on is tailored for peoply who follow the conventions of the language they are programming.
+This one is tailored for people who follow the conventions of the language they are programming on.
 
 This adapter has **TWO** main features.
 
@@ -13,11 +13,11 @@ Default MVC Urls
 
 Since ASP.NET MVC does not support (by default) PUT and DELETE http methods, the default request go to
 
-`findAll => GET  => /images`
-`find    => GET  => /images/details/5`
-`create  => POST => /images/create`
-`update  => POST => /images/edit/5`
-`delete  => POST => /images/delete/5`
+      findAll => GET  => /images
+      find    => GET  => /images/details/5
+      create  => POST => /images/create
+      update  => POST => /images/edit/5
+      delete  => POST => /images/delete/5
 
 Support for JS Naming
 ---------------------
